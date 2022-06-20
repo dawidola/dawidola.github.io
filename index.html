@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Dawidola</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="center">
+    <h1>Podaj odpowiedź:</h1>
+    <form id="answerForm">
+        <div>
+            <label>Nr pytania:</label>
+            <select id="questionNum" onchange="optionSelected()">
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label>Odpowiedź:</label>
+            <input id="inputAnswer" form="text" value="">
+        </div>
+        <div>
+            <button type="button" onclick="submitForm()">Ok</button>
+        </div>
+    </form>
+
+    <script src="index.js"></script>
+</body>
