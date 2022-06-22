@@ -100,12 +100,12 @@ const questionsAnswers = [
   },
   {
     check: (answer) =>
-      answer.includes("1a") &&
-      answer.includes("2c") &&
-      answer.includes("3b") &&
-      answer.includes("4d") &&
-      answer.includes("5e") &&
-      answer.includes("6f"),
+      (answer.includes("1a") || answer.includes("a1")) &&
+      (answer.includes("2c") || answer.includes("c2")) &&
+      (answer.includes("3b") || answer.includes("b3")) &&
+      (answer.includes("4d") || answer.includes("d4")) &&
+      (answer.includes("5e") || answer.includes("e5")) &&
+      (answer.includes("6f") || answer.includes("f6")),
     book: "Pary gór",
   },
   {
