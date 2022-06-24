@@ -74,19 +74,19 @@ let currQuestionNumber = 0;
 const questionsAnswers = [
   {
     check: (answer) => answer === "trzeba mi wielkiej wody",
-    book: "Rebus",
+    book: "Mistrz i Małgorzata",
   },
   {
     check: (answer) => answer === "koń" || answer === "kon",
-    book: "Tajniacy",
+    book: "O sztuce",
   },
   {
     check: (answer) => answer.includes("2460"),
-    book: "Zadanie",
+    book: "Kolekcja nietypowych zdarzeń",
   },
   {
     check: (answer) => answer === "c",
-    book: "Spór",
+    book: "Słownik polsko-angielski",
   },
   {
     check: (answer) =>
@@ -96,7 +96,7 @@ const questionsAnswers = [
       (answer.includes("eat") &&
         answer.includes("pray") &&
         answer.includes("love")),
-    book: "Julia Roberts",
+    book: "To",
   },
   {
     check: (answer) =>
@@ -106,11 +106,11 @@ const questionsAnswers = [
       (answer.includes("4d") || answer.includes("d4")) &&
       (answer.includes("5e") || answer.includes("e5")) &&
       (answer.includes("6f") || answer.includes("f6")),
-    book: "Pary gór",
+    book: "Don Kichote 2",
   },
   {
     check: pubquizQuestion,
-    book: "PubQuiz",
+    book: "Dzieci Hurina",
   },
   {
     check: (answer) =>
@@ -125,35 +125,35 @@ const questionsAnswers = [
       !answer.includes("i") &&
       !answer.includes("j") &&
       answer.includes("k"),
-    book: "Nalewka",
+    book: "Rumunia i Mołdawia",
   },
   {
     check: (answer) => answer === "kiszona cebula",
-    book: "Smród",
+    book: "89 wierszy",
   },
   {
     check: (answer) => answer === "c",
-    book: "Mucha",
+    book: "Bestiariusz słowiański",
   },
   {
     check: (answer) => answer === "nessun dorma",
-    book: "Karaoke",
+    book: "Idiota",
   },
   {
     check: (answer) => answer === "60",
-    book: "Filmy",
+    book: "Cierpliwość wobec Boga",
   },
   {
     check: (answer) => answer === "15",
-    book: "Wykreślanie",
+    book: "Jak mniej myśleć",
   },
   {
     check: (answer) => answer === "b",
-    book: "Babia Góra",
+    book: "Dzieje sześciu pojęć",
   },
   {
     check: (answer) => answer.replace(/,/g, '').replace(/\s+/g, '') === 'dbac',
-    book: "Papierosy",
+    book: "Kobiety",
   },
 ];
 const failMsg = "Niepoprawna odpowiedź, spróbujcie jeszcze raz";
